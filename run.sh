@@ -1,0 +1,194 @@
+python run_wildcap.py \
+    --log_dir data/wildcap_dataset/ljf/results \
+    --pho_scale 1.0 \
+    --grad_scale 1.0 \
+    --dps_steps 1000 \
+    --uv_ds 4 \
+    --vis_freq 100 \
+    --env_light_path xxx \
+    --eta 1.0 \
+    --baseline 0 \
+    --reg_scale 1.0 \
+    --tv_scale 0.1 \
+    --n_dpps 20 \
+    --sr_scale 1 \
+    --shadow_mask_path data/wildcap_dataset/ljf/shadow_mask.png \
+    --shade_init 1 \
+    --sche_light 1 \
+    --main_light_type splitsum \
+    --opt_light_iter 300 \
+    --light_res 96 \
+    --init 1 \
+    --init_add_noise_step 600 \
+    --data_root data/wildcap_dataset/ljf \
+    --texture_path data/wildcap_dataset/ljf/uv_switchlight.png \
+    --init_map_root data/wildcap_dataset/ljf/init_map \
+    --model_dir models
+
+
+python run_wildcap.py \
+    --log_dir data/wildcap_dataset/gy/results \
+    --pho_scale 1.0 \
+    --grad_scale 1.0 \
+    --dps_steps 1000 \
+    --uv_ds 4 \
+    --vis_freq 100 \
+    --env_light_path xxx \
+    --eta 1.0 \
+    --baseline 0 \
+    --reg_scale 1.0 \
+    --tv_scale 0.1 \
+    --n_dpps 20 \
+    --sr_scale 1 \
+    --shadow_mask_path data/wildcap_dataset/gy/shadow_mask.png \
+    --shade_init 1 \
+    --sche_light 1 \
+    --main_light_type splitsum \
+    --opt_light_iter 300 \
+    --light_res 96 \
+    --init 1 \
+    --init_add_noise_step 600 \
+    --data_root data/wildcap_dataset/gy \
+    --texture_path data/wildcap_dataset/gy/uv_switchlight.png \
+    --init_map_root data/wildcap_dataset/gy/init_map \
+    --model_dir models
+
+
+python run_wildcap.py \
+    --log_dir data/wildcap_dataset/czf/results \
+    --pho_scale 1.0 \
+    --grad_scale 1.0 \
+    --dps_steps 1000 \
+    --uv_ds 4 \
+    --vis_freq 100 \
+    --env_light_path xxx \
+    --eta 1.0 \
+    --baseline 0 \
+    --reg_scale 1.0 \
+    --tv_scale 0.1 \
+    --n_dpps 20 \
+    --sr_scale 1 \
+    --shadow_mask_path data/wildcap_dataset/czf/shadow_mask.png \
+    --shade_init 1 \
+    --sche_light 1 \
+    --main_light_type splitsum \
+    --opt_light_iter 300 \
+    --light_res 96 \
+    --init 1 \
+    --init_add_noise_step 600 \
+    --data_root data/wildcap_dataset/czf \
+    --texture_path data/wildcap_dataset/czf/uv_switchlight.png \
+    --init_map_root data/wildcap_dataset/czf/init_map \
+    --model_dir models
+
+
+python run_wildcap.py \
+    --log_dir data/wildcap_dataset/mx/results \
+    --pho_scale 1.0 \
+    --grad_scale 1.0 \
+    --dps_steps 1000 \
+    --uv_ds 4 \
+    --vis_freq 100 \
+    --env_light_path xxx \
+    --eta 1.0 \
+    --baseline 0 \
+    --reg_scale 1.0 \
+    --tv_scale 0.1 \
+    --n_dpps 20 \
+    --sr_scale 1 \
+    --shadow_mask_path data/wildcap_dataset/mx/shadow_mask.png \
+    --shade_init 1 \
+    --sche_light 1 \
+    --main_light_type splitsum \
+    --opt_light_iter 300 \
+    --light_res 96 \
+    --init 1 \
+    --init_add_noise_step 600 \
+    --data_root data/wildcap_dataset/mx \
+    --texture_path data/wildcap_dataset/mx/uv_switchlight.png \
+    --init_map_root data/wildcap_dataset/mx/init_map \
+    --model_dir models
+
+
+python run_wildcap.py \
+    --log_dir data/wildcap_dataset/hxa/results \
+    --pho_scale 1.0 \
+    --grad_scale 1.0 \
+    --dps_steps 1000 \
+    --uv_ds 4 \
+    --vis_freq 100 \
+    --env_light_path xxx \
+    --eta 1.0 \
+    --baseline 0 \
+    --reg_scale 1.0 \
+    --tv_scale 0.1 \
+    --n_dpps 20 \
+    --sr_scale 1 \
+    --shadow_mask_path data/wildcap_dataset/hxa/shadow_mask.png \
+    --shade_init 1 \
+    --sche_light 1 \
+    --main_light_type splitsum \
+    --opt_light_iter 300 \
+    --light_res 96 \
+    --init 1 \
+    --init_add_noise_step 600 \
+    --data_root data/wildcap_dataset/hxa \
+    --texture_path data/wildcap_dataset/hxa/uv_switchlight.png \
+    --init_map_root data/wildcap_dataset/hxa/init_map \
+    --model_dir models
+
+
+python run_wildcap.py \
+    --log_dir data/wildcap_dataset/hxl/results \
+    --pho_scale 1.0 \
+    --grad_scale 1.0 \
+    --dps_steps 1000 \
+    --uv_ds 4 \
+    --vis_freq 100 \
+    --env_light_path xxx \
+    --eta 1.0 \
+    --baseline 0 \
+    --reg_scale 1.0 \
+    --tv_scale 0.1 \
+    --n_dpps 20 \
+    --sr_scale 1 \
+    --shadow_mask_path data/wildcap_dataset/hxl/shadow_mask.png \
+    --shade_init 1 \
+    --sche_light 1 \
+    --main_light_type splitsum \
+    --opt_light_iter 300 \
+    --light_res 96 \
+    --init 1 \
+    --init_add_noise_step 600 \
+    --data_root data/wildcap_dataset/hxl \
+    --texture_path data/wildcap_dataset/hxl/uv_switchlight.png \
+    --init_map_root data/wildcap_dataset/hxl/init_map \
+    --model_dir models
+
+
+python run_wildcap.py \
+    --log_dir data/wildcap_dataset/black/results \
+    --pho_scale 1.0 \
+    --grad_scale 1.0 \
+    --dps_steps 1000 \
+    --uv_ds 4 \
+    --vis_freq 100 \
+    --env_light_path xxx \
+    --eta 1.0 \
+    --baseline 0 \
+    --reg_scale 1.0 \
+    --tv_scale 0.1 \
+    --n_dpps 20 \
+    --sr_scale 1 \
+    --shadow_mask_path data/wildcap_dataset/black/shadow_mask.png \
+    --shade_init 1 \
+    --sche_light 1 \
+    --main_light_type splitsum \
+    --opt_light_iter 300 \
+    --light_res 96 \
+    --init 1 \
+    --init_add_noise_step 600 \
+    --data_root data/wildcap_dataset/black \
+    --texture_path data/wildcap_dataset/black/uv_switchlight.png \
+    --init_map_root data/wildcap_dataset/black/init_map \
+    --model_dir models

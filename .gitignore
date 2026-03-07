@@ -1,0 +1,12 @@
+.vscode/*
+*.py[cod]
+
+models/*
+workspace/*
+data/*
+
+video/*
+
+STFR
+
+cmd.sh
