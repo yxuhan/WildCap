@@ -1,6 +1,6 @@
 # Environment
 
-Download the [model](https://drive.google.com/drive/folders/1Nq3VXclKsQNYKmQTuXEsjSh143Q9UvPT?usp=drive_link) folder and put it into `WildCap/model`.
+Download the [model](https://drive.google.com/drive/folders/1Nq3VXclKsQNYKmQTuXEsjSh143Q9UvPT?usp=drive_link) folder and put it into `WildCap/model`. Similar to the [DoRA repo](https://github.com/yxuhan/DoRA), this model is trained on the [GauFace dataset](https://dafei-qin.github.io/TransGS.github.io/).
 
 ```
 conda create -n wildcap python=3.10
